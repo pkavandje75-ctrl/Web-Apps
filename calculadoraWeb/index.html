@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="mainBox">
+        <p class="display">0</p>
+        <div class="buttons">
+            <div class="numbers">
+                <div class="line">
+                    <button onclick="clean()">C</button>
+                    <button onclick="backspace()">←</button>
+                    <button onclick="percent()">%</button>        
+                </div>
+                <div class="line">
+                    <button onclick="one()">1</button>
+                    <button onclick="two()">2</button>
+                    <button onclick="three()">3</button>        
+                </div>
+                <div class="line">
+                    <button onclick="four()">4</button>
+                    <button onclick="five()">5</button>
+                    <button onclick="six()">6</button>        
+                </div>
+                <div class="line">
+                    <button onclick="seven()">7</button>
+                    <button onclick="eight()">8</button>
+                    <button onclick="nine()">9</button>        
+                </div>
+                <div class="zeroButton">
+                    <button class="bigButton" onclick="zero()">0</button>
+                    <button onclick="equal()" class="igual">=</button>
+                </div>
+            </div>
+    
+            <div class="signals">
+                <button onclick="plus()" class="sign">+</button>
+                <button onclick="minus()" class="sign">-</button>
+                <button onclick="multiply()" class="sign">x</button>
+                <button onclick="divide()" class="sign">/</button>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

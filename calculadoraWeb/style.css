@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'poppins';
+    src: url(fonts/Poppins-Regular.ttf) format('truetype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainBox{
+    width: 350px;
+    height: 450px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.display{
+    width: 100%;
+    color: #fff;
+    text-align: right;
+    font-size: 2em;
+    margin-bottom: 20px;
+    border:#fff 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.buttons{
+    display: flex;
+    height: 300px;
+}
+
+.numbers{
+    width: 75%;
+   
+    height: 90%;
+}
+
+.line{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.line button{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.5em;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.zeroButton{
+    width: 305px;
+    display: flex;
+    margin-top: 20px;
+}
+.igual{
+    width: 80px;
+    height:70px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.5em;
+    background-color: #fff;
+    cursor: pointer;  
+}
+.bigButton{
+    width: 380px;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.5em;
+    background-color: #fff;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+
+.signals{
+    height: 240px;
+    margin-left: 20px;
+}
+
+
+
+.sign{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.5em;
+    background-color: #fff;
+    cursor: pointer;
+    display: block;
+    margin: 0 0 10px 0px;
+}
+
